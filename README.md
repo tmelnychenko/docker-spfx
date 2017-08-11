@@ -27,7 +27,7 @@ docker run -h spfx -it --rm --name ${PWD##*/} -v $PWD:/usr/app/spfx -p 5432:5432
 
 ```sh
 cd c:\projects\spfx-helloworld
-docker run -h spfx -it --rm --name spfx-helloworld -v /c/projects/spfx-helloworld:/usr/app/spfx -p 5432:5432 -p 4321:4321 -p 35729:35729 waldekm/spfx
+docker run -h spfx -it --rm --name spfx-helloworld -v /c/projects/spfx-helloworld:/usr/app/spfx -p 5432:5432 -p 4321:4321 -p 35729:35729 tmelnychenko/docker-spfx
 ```
 
 After the container started you can work with it the same way you would work with SharePoint Framework installed on your host. To create a new SharePoint Framework project in the container command line execute:
