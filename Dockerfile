@@ -13,4 +13,4 @@ RUN useradd --create-home --shell /bin/bash spfx && \
 
 USER spfx
 
-CMD /bin/bash
+CMD ["/bin/echo"]
